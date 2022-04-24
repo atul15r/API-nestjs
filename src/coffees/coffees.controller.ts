@@ -21,4 +21,9 @@ export class CoffeesController {
   //   findById(@Param() params) {
   //     return `coffees ${params.id}`;
   //   }
+
+  @Post('create')
+  create(@Body() body) {
+    return body;
+  }
 }
